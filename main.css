@@ -1,0 +1,11 @@
+.button-group > *{
+    flex-basis: 33.33%;
+}
+
+.button-group button{
+    width: 100%;
+}
+
+.success-alert{
+	display: none;
+}

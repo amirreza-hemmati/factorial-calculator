@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>ماشین حساب فاکتوریل</title>
+		<link rel="stylesheet" href="bootstrap.min.css" />
+		<link rel="stylesheet" href="main.css" />
+	</head>
+	
+	<body>
+
+		<header class="navbar bg-dark flex-row-reverse">
+
+			<a href="index.html" class="navbar-brand text-light font-weight-light">
+				ماشین حساب فاکتوریل
+			</a>
+
+		</header>
+
+
+		<main class="container d-flex justify-content-center py-2 flex-column">
+
+			<div class="alert alert-success mx-4 text-center success-alert" id="success-alert">جواب محاسبه شد</div>
+			
+			<div class="alert alert-danger mx-4 text-center success-alert" id="danger-alert">چیزی برای محاسبه وارد نشده</div>
+
+			<section class="alert bg-dark">
+				
+				<div class="alert py-4 bg-secondary calculator text-left text-light" id="result"></div>
+
+				<div class="d-flex justify-content-center flex-wrap button-group">
+
+					<div class="px-2"><button type="button" class="btn btn-outline-light mt-2 number">1</button></div>
+					<div class="px-2"><button type="button" class="btn btn-outline-light mt-2 number">2</button></div>
+					<div class="px-2"><button type="button" class="btn btn-outline-light mt-2 number">3</button></div>
+					<div class="px-2"><button type="button" class="btn btn-outline-light mt-2 number">4</button></div>
+					<div class="px-2"><button type="button" class="btn btn-outline-light mt-2 number">5</button></div>
+					<div class="px-2"><button type="button" class="btn btn-outline-light mt-2 number">6</button></div>
+					<div class="px-2"><button type="button" class="btn btn-outline-light mt-2 number">7</button></div>
+					<div class="px-2"><button type="button" class="btn btn-outline-light mt-2 number">8</button></div>
+					<div class="px-2"><button type="button" class="btn btn-outline-light mt-2 number">9</button></div>
+					<div class="px-2"><button type="button" class="btn btn-danger mt-2" id="clear">C</button></div>
+					<div class="px-2"><button type="button" class="btn btn-outline-light mt-2 number">0</button></div>
+					<div class="px-2"><button type="button" class="btn btn-danger mt-2" id="back"><</button></div>
+				</div>
+				
+				<div class="d-flex justify-content-start flex-wrap button-group mt-4">
+					<div class="px-2"><button type="button" class="btn btn-success mt-2" id="factorial">جواب</button></div>
+				</div>
+
+			</section>
+
+		</main>
+
+		<footer class="navbar justify-content-center bg-dark text-light">
+			<p class="navbar-brand">
+				ساخته شده توسط 
+				&nbsp;&nbsp;
+				<a href="https://github.com/amirreza-hemmati" target="_blank" class="text-info">امیررضا همتی</a>
+			</p>
+		</footer>
+
+		<script src="app.js"></script>
+		<script src="index.js"></script>
+	</body>
+</html>
